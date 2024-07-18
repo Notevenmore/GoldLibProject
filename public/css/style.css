@@ -1,0 +1,714 @@
+/* reset css & default font*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* desain halaman login dan register */
+section.form {
+    width: 50.5rem;
+    height: 37.3125rem;
+    border-radius: 5.1875rem;
+    background: #add8e6;
+    margin-top: 5.87rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.form img {
+    width: 9.625rem;
+    height: 9.5625rem;
+}
+section.form h1 {
+    font-size: 3.375rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+section.form form {
+    display: flex;
+    flex-direction: column;
+}
+section.form form input {
+    width: 33.8125rem;
+    height: 2.6875rem;
+    background: #f2f2f2;
+    border: none;
+}
+section.form form input {
+    margin-top: 1rem;
+}
+section.form form p {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+section.form form .button {
+    width: 13.125rem;
+    height: 1.9375rem;
+    border-radius: 0.6875rem;
+    background: #007bff;
+    margin-top: 1.44rem;
+    margin-left: 10.75rem;
+}
+section.form form .button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    line-height: 200%;
+    justify-content: center;
+}
+
+/* desain bar navigasi */
+nav {
+    height: 4.4375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3.63rem;
+    padding-right: 3.63rem;
+    background-color: #add8e6;
+}
+nav img.logo {
+    width: 2.6875rem;
+    height: 2.75rem;
+}
+nav span.menu {
+    display: flex;
+    align-items: center;
+}
+nav span.menu a {
+    margin-right: 2.62rem;
+    text-decoration: none;
+    color: black;
+}
+nav span.link a {
+    margin-right: 1.88rem;
+    text-decoration: none;
+    color: white;
+}
+nav span.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav span.link span.logout {
+    height: 1.8125rem;
+    border-radius: 0.5rem;
+    background-color: #dc3545;
+    padding-left: 1.6rem;
+    text-align: center;
+    margin-right: 1.88rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav span.link span.logout a {
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+nav span.link a img {
+    width: 2.625rem;
+    height: 3rem;
+    border-radius: 1.3125rem;
+}
+nav span.menu button.mode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: inherit;
+    background: inherit;
+    margin-right: 1.5rem;
+}
+nav span.menu button.mode img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Dark Mode Class Color Pallete*/
+.darkNav {
+    background-color: #6fa8cf !important;
+}
+
+.darkColorI {
+    background-color: #005080 !important;
+}
+
+.darkColorII {
+    background-color: #000a1a !important;
+}
+
+/* desain halaman home */
+.home {
+    background-color: #0077b6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2.6rem;
+    padding-left: 9.69rem;
+    padding-bottom: 9.38rem;
+    padding-right: 52.06rem;
+    color: #fff;
+    display: grid;
+    grid-template-areas: "content decoration";
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+header.home .title-app {
+    width: 23.9375rem;
+    grid-area: content;
+    margin-left: 1rem;
+}
+header.home img {
+    grid-area: decoration;
+    margin-left: 15rem;
+}
+header.home .title-app h1 {
+    height: 4rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 5.9375rem;
+    font-weight: 400;
+}
+section.books-menu {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 3.25rem;
+    padding-bottom: 2.65rem;
+    grid-template-areas:
+        "buku1 buku2 buku3"
+        "buku4 buku5 buku6"
+        "buku7 buku8 buku9"
+        "buku10 buku11 buku12";
+}
+section.books-menu #book-menu-1 {
+    grid-area: buku1;
+}
+section.books-menu #book-menu-2 {
+    grid-area: buku2;
+}
+section.books-menu #book-menu-3 {
+    grid-area: buku3;
+}
+section.books-menu #book-menu-4 {
+    grid-area: buku4;
+}
+section.books-menu #book-menu-5 {
+    grid-area: buku5;
+}
+section.books-menu #book-menu-6 {
+    grid-area: buku6;
+}
+section.books-menu #book-menu-7 {
+    grid-area: buku7;
+}
+section.books-menu #book-menu-8 {
+    grid-area: buku8;
+}
+section.books-menu #book-menu-9 {
+    grid-area: buku9;
+}
+section.books-menu #book-menu-10 {
+    grid-area: buku10;
+}
+section.books-menu #book-menu-11 {
+    grid-area: buku11;
+}
+section.books-menu #book-menu-12 {
+    grid-area: buku12;
+}
+section.books-menu .book-menu {
+    width: 18.125rem;
+    height: 17.9375rem;
+    background: #0077b6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+section.books-menu .book-menu img {
+    width: 6rem;
+    height: 10.0625rem;
+}
+
+section.books-menu .book-menu h1 {
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+section.books-menu .button {
+    display: flex;
+}
+section.books-menu .button .btn {
+    width: 5.4375rem;
+    height: 1.375rem;
+    border-radius: 0.4375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.books-menu .button .btn a {
+    text-decoration: none;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+section.books-menu .button .buy-button {
+    background: #28a745;
+    margin-right: 4.2rem;
+}
+section.books-menu .button .desc-button {
+    background: #17a2b8;
+}
+footer {
+    background-color: #0077b6;
+    height: 4.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h3 {
+    color: #fff;
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+
+/* desain halaman deskripsi buku */
+section.book-description {
+    display: flex;
+    width: 70.125rem;
+    height: 35.1875rem;
+    background: #0077b6;
+    color: white;
+    padding: 3.19rem 4.06rem 2.75rem 4.06rem;
+    margin: 1.79rem 8.94rem;
+}
+section.book-description img {
+    width: 18.25rem;
+    height: 28.75rem;
+    border-radius: 1.5rem;
+}
+section.book-description .all-content-except-image {
+    margin-left: 2.75rem;
+    margin-right: 4.06rem;
+}
+section.book-description .all-content-except-image h1 {
+    font-size: 2.4375rem;
+    font-weight: 700;
+    width: 41rem;
+    height: 2.9375rem;
+    margin-top: 0;
+}
+section.book-description .all-content-except-image p {
+    text-align: justify;
+    font-size: 0.75rem;
+    font-weight: 300;
+    width: 41rem;
+}
+section.book-description .all-content-except-image p.price-book {
+    display: flex;
+    align-items: center;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    margin-bottom: 1.37rem;
+}
+section.book-description
+    .all-content-except-image
+    p.price-book
+    .dollar-coin
+    img {
+    width: 1.625rem;
+    height: 1.6875rem;
+}
+section.book-description .all-content-except-image .buy-button {
+    height: 1.9375rem;
+    border-radius: 0.4375rem;
+    background: #28a745;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.06rem;
+}
+section.book-description .all-content-except-image .buy-button a,
+section.book-description .all-content-except-image .buy-button button {
+    text-decoration: none;
+    background-color: #28a745;
+    border: inherit;
+    color: white;
+    font-size: 0.8125rem;
+    font-weight: 700;
+}
+section.book-description .all-content-except-image form {
+    display: flex;
+    justify-content: space-between;
+}
+section.book-description .all-content-except-image form input {
+    width: 36rem;
+    height: 1.6875rem;
+    border: inherit;
+}
+section.book-description .all-content-except-image .bottom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.book-description
+    .all-content-except-image
+    .bottom-button
+    .review-button {
+    width: 38.1875rem;
+    height: 1.6875rem;
+    border-radius: 0.4375rem;
+    background: #17a2b8;
+    margin-right: 0.81rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+section.book-description
+    .all-content-except-image
+    .bottom-button
+    .review-button
+    a {
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+section.book-description
+    .all-content-except-image
+    .bottom-button
+    .cart-button
+    button {
+    width: 2.375rem;
+    height: 2rem;
+    background-color: #007bff;
+    border: inherit;
+    border-radius: 2.4375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.book-description
+    .all-content-except-image
+    .bottom-button
+    .cart-button
+    button
+    img {
+    width: 1.9375rem;
+    height: 1rem;
+}
+
+/* desain halaman review */
+section.review-list {
+    width: 69.625rem;
+    display: flex;
+    background: #0077b6;
+    margin: 3.38rem auto;
+    align-items: center;
+    flex-direction: column;
+}
+section.review-list .comments-users-data {
+    width: 58.625rem;
+    height: 10rem;
+    margin-bottom: 2.25rem;
+}
+section.review-list .comments-users-data img.photo-profil {
+    width: 2.625rem;
+    height: 3rem;
+    border-radius: 1.3125rem;
+}
+section.review-list .comments-users-data .header-comments {
+    display: flex;
+    align-items: center;
+}
+section.review-list h1 {
+    margin-left: 0.69rem;
+    color: white;
+    text-align: center;
+    font-size: 2.3125rem;
+    font-weight: 700;
+}
+section.review-list .comments-users-data .header-comments h1 {
+    color: white;
+    font-size: 1.3125rem;
+    font-weight: 400;
+}
+section.review-list .comments-users-data .comments {
+    width: 58.625rem;
+    height: 6.1875rem;
+    padding: 0.69rem 1.12rem 0.63rem 1.31rem;
+    background: white;
+}
+section.review-list form {
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+    display: flex;
+    gap: 0.5rem;
+}
+section.review-list form button {
+    background-color: #007bff;
+    border: inherit;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+/* desain halaman profile */
+section.profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8.31rem;
+}
+section.profil .form-profile-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.profil img {
+    width: 17.9375rem;
+    height: 20.2rem;
+}
+section.profil .form-profile {
+    width: 34.3125rem;
+    background: #0077b6;
+    margin-left: 2.75rem;
+    display: flex;
+    height: 20.2rem;
+    align-items: center;
+}
+section.profil .form-profile-with-image .form-profile form {
+    margin: 1.87rem 2.81rem 1.87rem 2.44rem;
+}
+section.profil .form-profile-with-image .form-profile form input {
+    background-color: inherit;
+    border: inherit;
+    color: white;
+    margin-bottom: 1.13rem;
+}
+section.profil .form-profile-with-image .form-profile form input#Nickname {
+    width: 18.8125rem;
+    height: 3.125rem;
+    font-size: 2.125rem;
+    font-weight: 700;
+}
+section.profil .form-profile-with-image .form-profile form input#Email {
+    width: 18.8125rem;
+    font-size: 0.8375rem;
+    font-weight: 700;
+}
+section.profil .form-profile-with-image .form-profile form input#Photo-profil {
+    display: none;
+}
+section.profil .form-profile-with-image .form-profile form .Photo-profil {
+    width: 29.0625rem;
+    height: 1.8125rem;
+    border: inherit;
+    border-radius: 0.625rem;
+    background: #007bff;
+    color: white;
+    font-size: 0.7375rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+section.profil .form-profile-with-image .form-profile form .Photo-profil a {
+    text-decoration: none;
+    color: white;
+}
+section.profil span.logout {
+    width: 55rem;
+    height: 1.8125rem;
+    border-radius: 0.5rem;
+    background: #dc3545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+section.profil span.logout a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+
+/* desain cart */
+section.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.cart form .item-book {
+    width: 70.125rem;
+    height: 7.4375rem;
+    background: #0077b6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.69rem;
+    margin-bottom: 1.69rem;
+}
+section.cart form .item-book img {
+    width: 4rem;
+    height: 6.5625rem;
+    border-radius: 1.5rem;
+    margin-left: 1.94rem;
+}
+section.cart form .item-book input#amount-books {
+    width: 4rem;
+    height: 1.2rem;
+    margin-right: 2.75rem;
+    text-align: center;
+}
+section.cart form .item-book label {
+    width: 41rem;
+    height: 2.9375rem;
+    color: white;
+    font-size: 2.4375rem;
+    font-weight: 700;
+    margin-left: 2.82rem;
+}
+section.cart form .item-book input {
+    width: 1.6875rem;
+    height: 1.8125rem;
+    margin-right: 2.75rem;
+}
+section.cart form .button {
+    display: flex;
+    justify-content: space-between;
+}
+section.cart form button {
+    border-radius: 0.4375rem;
+    border: inherit;
+    width: 7.375rem;
+    height: 1.9375rem;
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+section.cart form .check-out-button button {
+    background: #28a745;
+}
+section.cart form .delete-button button {
+    background: #dc3545;
+}
+
+/* desain borrowbook */
+section.countdown-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+section.countdown-list .countdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70.125rem;
+    height: 8.25rem;
+    background: #0077b6;
+    margin-top: 1.5rem;
+}
+section.countdown-list .countdown img {
+    width: 4.875rem;
+    height: 7rem;
+    border-radius: 0.75rem;
+    margin-left: 3.62rem;
+    margin-right: 1.75rem;
+}
+section.countdown-list .countdown h1 {
+    color: white;
+    font-size: 1.625rem;
+    font-weight: 700;
+    width: 27.625rem;
+    height: 2.5rem;
+}
+section.countdown-list .countdown .description-time .time {
+    display: flex;
+    align-items: center;
+    margin-right: 3.63rem;
+}
+.hari1,
+.hari2,
+.hari3,
+.jam1,
+.jam2,
+.menit1,
+.menit2,
+.detik1,
+.detik2 {
+    width: 2.1875rem;
+    height: 2.5rem;
+    background: white;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+section.countdown-list .countdown .description-time .time .titik-dua {
+    color: white;
+    font-size: 2.1375rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+section.countdown-list .countdown .description-time .return-back {
+    width: 27.3375rem;
+    height: 1.375rem;
+    border-radius: 0.4375rem;
+    background: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.06rem;
+}
+section.countdown-list .countdown .description-time .return-back a {
+    color: white;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* desain payment details */
+section.payment-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70.125rem;
+    height: 35.1875rem;
+    background: #0077b6;
+    color: white;
+    padding: 3.19rem 4.06rem 2.75rem 4.06rem;
+    margin: 1.79rem 8.94rem;
+}
+section.payment-details table {
+    width: 757px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+section.payment-details table tr {
+    height: 4rem;
+}
+section.payment-details table tr th,
+section.payment-details table tr td {
+    border: 3px solid #0077b6;
+}
+
+section.payment-details form button {
+    width: 757px;
+    height: 31px;
+    border-radius: 7px;
+    background: #28a745;
+}
